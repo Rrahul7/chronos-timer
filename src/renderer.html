@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronos</title>
+    <link rel="stylesheet" href="renderer.css">
+</head>
+<body>
+    <div class="timer-app">
+        <header class="header">
+            <h1>⏱ Chronos</h1>
+            <button class="close-btn" onclick="window.close()">×</button>
+        </header>
+        
+        <div class="timer-display" id="timerDisplay">
+            <div class="time-text" id="timeText">00:00</div>
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+        </div>
+        
+        <div class="time-inputs" id="timeInputs">
+            <div class="input-group">
+                <label>Hours</label>
+                <input type="number" id="hoursInput" min="0" max="6" value="0">
+            </div>
+            <div class="input-group">
+                <label>Minutes</label>
+                <input type="number" id="minutesInput" min="0" max="59" value="5">
+            </div>
+            <div class="input-group">
+                <label>Seconds</label>
+                <input type="number" id="secondsInput" min="0" max="59" value="0">
+            </div>
+        </div>
+        
+        <div class="quick-timers">
+            <h3>Quick Timers</h3>
+            <div class="quick-buttons">
+                <button class="quick-btn" data-seconds="30">30s</button>
+                <button class="quick-btn" data-seconds="60">1m</button>
+                <button class="quick-btn" data-seconds="300">5m</button>
+                <button class="quick-btn" data-seconds="600">10m</button>
+                <button class="quick-btn" data-seconds="1800">30m</button>
+                <button class="quick-btn" data-seconds="3600">1h</button>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn primary" id="startStopBtn">Start</button>
+            <button class="btn secondary" id="resetBtn">Reset</button>
+        </div>
+        
+        <div class="settings-section">
+            <h3>Notifications</h3>
+            <div class="setting-item">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="soundNotifications" checked>
+                    <span class="checkmark"></span>
+                    Sound Notifications
+                </label>
+            </div>
+            <div class="setting-item">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="visualNotifications" checked>
+                    <span class="checkmark"></span>
+                    Visual Notifications
+                </label>
+            </div>
+        </div>
+        
+        <div class="validation-message" id="validationMessage"></div>
+    </div>
+    
+    <script src="renderer.js"></script>
+</body>
+</html>
