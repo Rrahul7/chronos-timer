@@ -11,7 +11,6 @@ Choose the right version for your Mac:
 - **Intel Mac**: [Download Chronos-1.0.0.dmg](https://github.com/Rrahul7/chronos-timer/releases/latest/download/Chronos-1.0.0.dmg)
 - **Apple Silicon (M1/M2/M3)**: [Download Chronos-1.0.0-arm64.dmg](https://github.com/Rrahul7/chronos-timer/releases/latest/download/Chronos-1.0.0-arm64.dmg)
 
-> **Note**: Replace `Rrahul7` with your actual GitHub username
 
 ## Features
 
