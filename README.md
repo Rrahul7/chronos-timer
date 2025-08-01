@@ -1,17 +1,17 @@
 # Chronos - Menu Bar Timer
 
-[![Download](https://img.shields.io/github/downloads/YOUR_USERNAME/chronos-timer/total)](https://github.com/YOUR_USERNAME/chronos-timer/releases)
-[![Latest Release](https://img.shields.io/github/v/release/YOUR_USERNAME/chronos-timer)](https://github.com/YOUR_USERNAME/chronos-timer/releases/latest)
+[![Download](https://img.shields.io/github/downloads/Rrahul7/chronos-timer/total)](https://github.com/Rrahul7/chronos-timer/releases)
+[![Latest Release](https://img.shields.io/github/v/release/Rrahul7/chronos-timer)](https://github.com/Rrahul7/chronos-timer/releases/latest)
 
 A beautiful, feature-rich timer application that lives in your macOS menu bar.
 
 ## 📥 Quick Download
 
 Choose the right version for your Mac:
-- **Intel Mac**: [Download Chronos-1.0.0.dmg](https://github.com/YOUR_USERNAME/chronos-timer/releases/latest/download/Chronos-1.0.0.dmg)
-- **Apple Silicon (M1/M2/M3)**: [Download Chronos-1.0.0-arm64.dmg](https://github.com/YOUR_USERNAME/chronos-timer/releases/latest/download/Chronos-1.0.0-arm64.dmg)
+- **Intel Mac**: [Download Chronos-1.0.0.dmg](https://github.com/Rrahul7/chronos-timer/releases/latest/download/Chronos-1.0.0.dmg)
+- **Apple Silicon (M1/M2/M3)**: [Download Chronos-1.0.0-arm64.dmg](https://github.com/Rrahul7/chronos-timer/releases/latest/download/Chronos-1.0.0-arm64.dmg)
 
-> **Note**: Replace `YOUR_USERNAME` with your actual GitHub username
+> **Note**: Replace `Rrahul7` with your actual GitHub username
 
 ## Features
 
